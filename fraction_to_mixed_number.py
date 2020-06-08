@@ -58,5 +58,4 @@ def mixed_fraction(s):
             return( '-' + str(n) + '/' + str(d)   ) 
         return ( '-' + str(integer) + ' ' + str(n) + '/' + str(d)   )
 
-print( mixed_fraction('22/0') )
 
