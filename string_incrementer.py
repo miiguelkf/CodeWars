@@ -19,7 +19,8 @@ foo099 -> foo100
 Attention: If the number has leading zeros the amount of digits should be considered.
 '''
 
-def IncrementString(strng):
+
+def increment_string(strng):
     number = []
     for char in strng[::-1]:
         if char.isdigit():
@@ -41,3 +42,4 @@ def IncrementString(strng):
     else:
         ans = w + '0'*( len(number) - len(str(new_number)) ) +  str(new_number)
     
+    return(ans)
