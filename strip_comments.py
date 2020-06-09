@@ -27,7 +27,6 @@ def StripComments(s,markers):
 
         for i , char in enumerate(markers):
             if char in line:
-                char_used = True
                 line = line.split(char)[0].strip()
 
             if i == len(markers)-1:
